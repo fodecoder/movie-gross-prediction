@@ -1,0 +1,19 @@
+# Tested in 2026 on Python 3.8 (Windows): the notebook re-executes top to bottom and
+# reproduces every saved score. Original ran on Colab in 2020; its exact versions
+# weren't recorded. scikit-learn must stay < 1.2 (plot_confusion_matrix is imported).
+scikit-learn==0.22.2.post1
+pandas==1.0.5
+numpy==1.18.5
+scipy==1.4.1
+seaborn==0.10.1
+matplotlib==3.2.2
+openpyxl==3.0.10
+# to run the notebook headless (jupyter nbconvert --execute)
+nbconvert==6.5.4
+nbclient==0.5.13
+ipykernel==5.5.6
+jupyter-client==6.1.12
+traitlets==5.1.1
+Jinja2==3.0.3
+MarkupSafe==2.0.1
+lxml==5.1.1
